@@ -14,6 +14,14 @@ console.log(keys);
 2. bottle['color']
 3.bottle[key]
 */
+//for of loop
 for (const key of keys) {
+    // console.log(key, bottle[key]);
+}
+
+// for in loop
+for (const key in bottle) {
     console.log(key, bottle[key]);
 }
+//advanced
+const pair = Object.entries(bottle)
