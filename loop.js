@@ -21,7 +21,11 @@ for (const key of keys) {
 
 // for in loop
 for (const key in bottle) {
-    console.log(key, bottle[key]);
+    // console.log(key, bottle[key]);
 }
 //advanced
-const pair = Object.entries(bottle)
+const pair = Object.entries(bottle);
+console.log(pair);
+for (const [key, value] of Object.entries(bottle)) {
+    console.log(key, value)
+}
